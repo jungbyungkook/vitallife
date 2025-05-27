@@ -1,0 +1,43 @@
+{
+  "name": "vitallife-health-supplements",
+  "version": "1.0.0",
+  "description": "A modern, responsive e-commerce website for health supplements",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx live-server --port=3000",
+    "build": "echo 'No build process needed for static site'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "health",
+    "supplements",
+    "e-commerce",
+    "vitamins",
+    "wellness",
+    "nutrition",
+    "responsive",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "VitalLife Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vitallife/health-supplements-website.git"
+  },
+  "homepage": "https://vitallife.github.io/health-supplements-website",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+} 
